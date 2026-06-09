@@ -2,6 +2,14 @@
 
 ---
 
+| EQUIPE |
+|------|
+| Tiago Abraão |
+| Matheus Paulo |
+| Lucas Canto |
+
+---
+
 ## Descrição
 
 Jogo educativo de quiz 2D sobre a **história da computação**, desenvolvido
@@ -50,8 +58,8 @@ as 3 vidas acabam (game over).
 
 ### Pré-requisitos
 
-- GCC (ou Clang)
-- raylib 5.x instalada (`libraylib-dev` ou compilada do código-fonte)
+- GCC
+- raylib instalada (`libraylib-dev` ou compilada do código-fonte)
 
 ### Linux
 
@@ -76,12 +84,3 @@ gcc -std=c99 -Wall -O2 \
     -lraylib -lm -lpthread -ldl -lrt -lX11
 ```
 
----
-
-| EQUIPE |
-|------|
-| Tiago Abraão |
-| Matheus Paulo |
-| Lucas Canto |
-
----
